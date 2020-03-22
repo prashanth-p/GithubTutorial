@@ -1,0 +1,46 @@
+1. Login to github and create your account
+2. Create a GitHub Repo
+3.  Copy the github repo url:
+    https://github.com/prashanth-p/GithubTutorial.git
+
+4. open cmd:
+    git --version
+    C:\Users\prash>git --version
+        git version 2.25.1.windows.1
+
+5. if you dont have git installed:
+    goto https://git-scm.com/downloads 
+    download git for your os
+
+
+6. open your vscode project folder
+
+7. Check git is enabled in vscode
+
+
+8. cntrl (in windows) or cmd(in mac) + backtick (key is under the escape key in the keyboard) .. this will open the terminal 
+
+9. $ git init
+
+10. we need to add our repository link 
+    $ git remote add testgit https://github.com/prashanth-p/GithubTutorial.git
+
+11. How do you verify that we have added the new remote:
+    $ git remote show testgit
+
+12. We need to say git that we have files to be added to the repository
+    $ git add .
+
+13. We need to check the current status that we have added the files
+    $ git status
+
+14. We then need to commit our changes 
+    $ git commit -m "This is my first commit"
+
+
+
+
+
+
+
+
