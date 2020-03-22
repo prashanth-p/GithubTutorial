@@ -37,6 +37,7 @@
 14. We then need to commit our changes 
     $ git commit -m "This is my first commit"
 
+15. git push -u testgit master
 
 
 
